@@ -10,20 +10,20 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    142558,       3516]
-NotebookOptionsPosition[    142099,       3498]
-NotebookOutlinePosition[    142443,       3513]
-CellTagsIndexPosition[    142400,       3510]
+NotebookDataLength[    142599,       3516]
+NotebookOptionsPosition[    142140,       3498]
+NotebookOutlinePosition[    142484,       3513]
+CellTagsIndexPosition[    142441,       3510]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 Cell[BoxData[{
  RowBox[{
-  RowBox[{"maxocc", "=", "4"}], ";"}], "\[IndentingNewLine]", 
+  RowBox[{"maxocc", "=", "6"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
-   RowBox[{"nsites", "=", "4"}], ";"}], "\n", 
+   RowBox[{"nsites", "=", "2"}], ";"}], "\[IndentingNewLine]", 
   RowBox[{"(*", 
    RowBox[{
     RowBox[{
@@ -34,8 +34,7 @@ Cell[BoxData[{
     ",", " ", 
     RowBox[{
     "in", " ", "which", " ", "only", " ", "Nearest", " ", "Neighbour", " ", 
-     "hopping", " ", "is", " ", "allowed"}]}], 
-   "*)"}]}], "\[IndentingNewLine]", 
+     "hopping", " ", "is", " ", "allowed"}]}], "*)"}]}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"graphDistance", "=", 
@@ -65,7 +64,7 @@ Cell[BoxData[{
    RowBox[{
    "Generate", " ", "a", " ", "Basis", " ", "of", " ", "number", " ", 
     "occupancy", " ", "states", " ", "sorte", " ", "by", " ", "total", " ", 
-    "number"}], "*)"}], "\[IndentingNewLine]", "\n", 
+    "number"}], "*)"}], "\n", "\[IndentingNewLine]", 
   RowBox[{"(*", 
    RowBox[{
     RowBox[{"kb", "=", 
@@ -136,16 +135,16 @@ Cell[BoxData[{
        RowBox[{"k", ",", "1", ",", "l"}], "}"}]}], "]"}], ",", 
     RowBox[{
      RowBox[{"{", 
-      RowBox[{"l", ",", "NumBlock"}], "}"}], ";", "\n", 
-     RowBox[{"(*", 
+      RowBox[{"l", ",", "NumBlock"}], "}"}], ";"}], "\n", 
+    RowBox[{"(*", 
+     RowBox[{
       RowBox[{
-       RowBox[{
-       "This", " ", "gives", " ", "the", " ", "size", " ", "of", " ", "each", 
-        " ", "block", " ", "with", " ", "certain", " ", "total", " ", 
-        "number", " ", "of", " ", "atoms"}], ",", " ", 
-       RowBox[{
-       "in", " ", "order", " ", "to", " ", "calculate", " ", "Hamiltonian", 
-        " ", "easily"}]}], "*)"}]}]}]}]}]}], "Input",
+      "This", " ", "gives", " ", "the", " ", "size", " ", "of", " ", "each", 
+       " ", "block", " ", "with", " ", "certain", " ", "total", " ", "number",
+        " ", "of", " ", "atoms"}], ",", " ", 
+      RowBox[{
+      "in", " ", "order", " ", "to", " ", "calculate", " ", "Hamiltonian", 
+       " ", "easily"}]}], "*)"}]}]}]}]}], "Input",
  CellChangeTimes->{{3.6294761725628724`*^9, 3.6294761780144863`*^9}, {
    3.6294763360902805`*^9, 3.629476340899469*^9}, {3.629476465316951*^9, 
    3.629476491594371*^9}, {3.6294765245992503`*^9, 3.6294765331759367`*^9}, {
@@ -163,7 +162,8 @@ Cell[BoxData[{
    3.630781343041775*^9}, {3.6308703646151958`*^9, 3.6308703669607506`*^9}, {
    3.6309466001604033`*^9, 3.630946714566248*^9}, {3.630954383923648*^9, 
    3.630954386394286*^9}, {3.6310138810582733`*^9, 3.6310138875405345`*^9}, {
-   3.631024380374338*^9, 3.6310243832959385`*^9}, 3.631025554609657*^9}],
+   3.631024380374338*^9, 3.6310243832959385`*^9}, 3.631025554609657*^9, {
+   3.6314644242221923`*^9, 3.6314644255347605`*^9}}],
 
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", 
@@ -3512,12 +3512,12 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 5700, 145, 432, "Input"],
-Cell[6261, 167, 10943, 267, 712, "Input"],
-Cell[17207, 436, 500, 9, 31, "Input"],
-Cell[17710, 447, 5515, 140, 352, "Input"],
-Cell[23228, 589, 114265, 2808, 6152, "Input"],
-Cell[137496, 3399, 4599, 97, 152, "Input"]
+Cell[558, 20, 5741, 145, 432, "Input"],
+Cell[6302, 167, 10943, 267, 712, "Input"],
+Cell[17248, 436, 500, 9, 31, "Input"],
+Cell[17751, 447, 5515, 140, 352, "Input"],
+Cell[23269, 589, 114265, 2808, 6152, "Input"],
+Cell[137537, 3399, 4599, 97, 152, "Input"]
 }
 ]
 *)
